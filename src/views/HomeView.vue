@@ -12,7 +12,8 @@
 <div class="item" v-for="d,i in pageData.list" :key="i+d.id+d.v" >
   {{d}}
 </div>
-<iframe style="height:500px;width: 500px;" src="https://xueyan.xueersi.com/chess-base-topic/index.html?type=iframe" ref="testRef"></iframe>
+<iframe style="height:500px;width: 500px;"
+src="https://xueyan.xueersi.com/chess-base-topic/index.html?type=iframe" ref="testRef"></iframe>
 <iframe style="height:500px;width: 500px;" src="http://10.14.168.5:8080?type=iframe" ref="testRef2"></iframe>
 </template>
 
