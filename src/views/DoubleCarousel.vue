@@ -48,7 +48,8 @@ export default defineComponent({
       outerSwiper.on('reachBeginning', () => {
         const { activeIndex } = outerSwiper;
         if (activeIndex > 0) {
-          innerSwipers.value[activeIndex - 1].slideTo(innerSwipers.value[activeIndex - 1].slides.length - 1);
+          innerSwipers.value[activeIndex - 1]
+            .slideTo(innerSwipers.value[activeIndex - 1].slides.length - 1);
           outerSwiper.slideTo(activeIndex - 1);
         }
       });
